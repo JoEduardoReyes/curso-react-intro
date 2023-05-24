@@ -1,5 +1,5 @@
 function CreateTodoButton() {
-	return <button>Create Todo</button>;
+	return <button>+</button>;
 }
 
 export { CreateTodoButton };

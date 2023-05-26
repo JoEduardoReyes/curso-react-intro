@@ -5,6 +5,8 @@ import { TodoSearch } from "./TodoSearch";
 import { TodoList } from "./TodoList";
 import { TodoItem } from "./TodoItem";
 import { CreateTodoButton } from "./CreateTodoButton";
+import "animate.css";
+
 /* icons*/
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCircleCheck as regCircleCheck } from "@fortawesome/free-regular-svg-icons";

@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #121126;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	background-color: #190840;
+	border-radius: 25px;
+	width: 80%;
+	height: 80%;
+	max-width: 900px;
+	min-width: 490px;
+	position: relative;
+	display: grid;
+	grid-auto-rows: minmax(max-content, auto);
+	grid-auto-flow: row;
+	place-items: center;
+	overflow-y: scroll;
+}

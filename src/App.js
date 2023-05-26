@@ -1,10 +1,18 @@
-import "./App.css";
+import "./styles/App.css";
 import React from "react";
 import { TodoCounter } from "./TodoCounter";
 import { TodoSearch } from "./TodoSearch";
 import { TodoList } from "./TodoList";
 import { TodoItem } from "./TodoItem";
 import { CreateTodoButton } from "./CreateTodoButton";
+/* icons*/
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCircleCheck as regCircleCheck } from "@fortawesome/free-regular-svg-icons";
+import {
+	faCircleCheck,
+	faXmark,
+	faPlus,
+} from "@fortawesome/free-solid-svg-icons";
 
 const defaultTodos = [
 	{ text: "Cortar Cebolla", completed: false },
@@ -35,3 +43,7 @@ function App() {
 }
 
 export default App;
+
+/* icons */
+
+library.add(faCircleCheck, regCircleCheck, faXmark, faPlus);

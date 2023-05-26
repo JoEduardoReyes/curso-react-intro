@@ -1,0 +1,13 @@
+h1 {
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	font-family: "Poppins", sans-serif;
+	transition: 0.5s;
+}
+
+h1 span:hover {
+	text-shadow: 0 0 10px white;
+	transition: 0.5s;
+}

@@ -1,0 +1,54 @@
+#TodoSearchWrapper {
+	width: 80%;
+	max-width: 430px;
+	position: relative;
+}
+
+#TodoSearch {
+	width: 100%;
+	padding: 10px 15px;
+	border: 2px solid white;
+	border-radius: 25px;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: 0.5s;
+	color: white;
+}
+
+#TodoSearch::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#TodoSearch:focus {
+	box-shadow: 0px 0px 10px white;
+	border: 2px solid white;
+	outline: none;
+	transition: 0.5s;
+}
+
+#TodoSearchIcon {
+	transition: 0.5s;
+	cursor: pointer;
+	position: absolute;
+	top: -10px;
+	right: -5px;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	font-size: 1.4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: #7f00ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#e100ff,
+		#7f00ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e100ff,
+		#7f00ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

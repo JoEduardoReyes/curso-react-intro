@@ -10,4 +10,5 @@ h1 {
 h1 span:hover {
 	text-shadow: 0 0 10px white;
 	transition: 0.5s;
+	font-weight: bold;
 }

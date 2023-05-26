@@ -8,7 +8,16 @@ function TodoSearch() {
 	};
 	return (
 		<div id="TodoSearchWrapper">
-			<input id="TodoSearch" placeholder="Buscar Todo" />
+			<input
+				id="TodoSearch"
+				placeholder="Buscar Todo"
+				onChange={(event) => {
+					console.log("Escribiste en el search");
+					console.log(event);
+					console.log(event.target);
+					console.log(event.target.value);
+				}}
+			/>
 			<div id="TodoSearchIcon" onClick={animate}>
 				<FontAwesomeIcon icon={faMagnifyingGlass} />
 			</div>

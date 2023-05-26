@@ -50,3 +50,12 @@ li span:last-child:hover {
 	transition: 0.3s;
 	color: rgba(255, 0, 0, 0.73);
 }
+
+.completed,
+.completed span {
+	color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.completed p {
+	text-decoration: line-through;
+}

@@ -5,11 +5,11 @@
 	outline: none;
 	border: Solid 2px rgba(138, 43, 226, 0.8);
 	color: white;
-	transition: 0.5;
+	transition: 0.5s;
 }
 
 .searchInput:focus {
 	border: Solid 2px rgba(138, 43, 226, 1);
 	background-color: rgba(255, 255, 255, 0.1);
-	transition: 0.5;
+	transition: 0.5s;
 }

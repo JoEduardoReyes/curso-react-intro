@@ -1,5 +1,7 @@
+import "./CSS/TodoList.css";
+
 function TodoList({ children }) {
-	return <ul>{children}</ul>;
+	return <ul className="todoList">{children}</ul>;
 }
 
 export { TodoList };

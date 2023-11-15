@@ -1,6 +1,9 @@
 .todoItem {
+	width: 100%;
 	display: flex;
-	padding: 15px;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 15px 20px;
 	background: rgb(2, 0, 36);
 	background: -moz-linear-gradient(
 		135deg,
@@ -22,4 +25,16 @@
 	);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 	border-radius: 15px;
+}
+
+.todoItem svg {
+	cursor: pointer;
+}
+
+.todoItem svg:first-child {
+	margin-right: 15px;
+}
+
+.todoItem svg:last-child {
+	margin-left: auto;
 }

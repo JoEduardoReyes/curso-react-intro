@@ -1,19 +1,9 @@
 .todoItem {
+	width: 100%;
 	display: flex;
-	padding: 15px;
-	background: rgb(2, 0, 36);
-	background: -moz-linear-gradient(
-		135deg,
-		rgba(2, 0, 36, 0) 0%,
-		rgba(138, 43, 226, 0.3) 60%,
-		rgba(0, 212, 255, 0.1) 100%
-	);
-	background: -webkit-linear-gradient(
-		135deg,
-		rgba(2, 0, 36, 0) 0%,
-		rgba(138, 43, 226, 0.3) 60%,
-		rgba(0, 212, 255, 0.1) 100%
-	);
+	align-items: center;
+	justify-content: flex-start;
+	padding: 15px 20px;
 	background: linear-gradient(
 		135deg,
 		rgba(2, 0, 36, 0) 0%,
@@ -22,4 +12,30 @@
 	);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 	border-radius: 15px;
+}
+
+.todoItem svg {
+	cursor: pointer;
+}
+
+.todoItem svg:first-child {
+	margin-right: 15px;
+}
+
+.todoItem svg:last-child {
+	margin-left: auto;
+}
+
+.todoItem.completed {
+	background: linear-gradient(
+		135deg,
+		rgba(2, 0, 36, 0) 0%,
+		rgba(138, 43, 226, 0.1) 60%,
+		rgba(0, 212, 255, 0.1) 100%
+	);
+	text-decoration: line-through;
+}
+
+.todoItem.completed svg {
+	opacity: 0.5;
 }

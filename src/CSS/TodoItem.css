@@ -4,29 +4,12 @@
 	align-items: center;
 	justify-content: flex-start;
 	padding: 15px 20px;
-<<<<<<< HEAD
-=======
-	background: rgb(2, 0, 36);
-	background: -moz-linear-gradient(
-		135deg,
-		rgba(2, 0, 36, 0) 0%,
-		rgba(138, 43, 226, 0.3) 60%,
-		rgba(0, 212, 255, 0.1) 100%
-	);
-	background: -webkit-linear-gradient(
-		135deg,
-		rgba(2, 0, 36, 0) 0%,
-		rgba(138, 43, 226, 0.3) 60%,
-		rgba(0, 212, 255, 0.1) 100%
-	);
->>>>>>> d33b1b9a880ba99bdcc6caf395126b747405d6ca
 	background: linear-gradient(
 		135deg,
 		rgba(2, 0, 36, 0) 0%,
 		rgba(138, 43, 226, 0.3) 60%,
 		rgba(0, 212, 255, 0.1) 100%
 	);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 	border-radius: 15px;
 }
 
